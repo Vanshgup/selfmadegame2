@@ -5,16 +5,16 @@ var bulletGroup,bullet_Img,bullet;
 
 function preload(){
   
-  shooterImg = loadImage("assets/shooter_2.png")
-  shooter_shooting = loadImage("assets/shooter_3.png")
+  shooterImg = loadImage("shooter_2.png")
+  shooter_shooting = loadImage("shooter_3.png")
 
   bgImg = loadImage("assets/bg.jpeg")
 
-  zombie_Img=loadImage("assets/zombie.png");
-  zombie2_img=loadImage("assets/zombie2.png");
-  zombie3_img=loadImage("assets/zombie 3.png");
+  zombie_Img=loadImage("zombie.png");
+  zombie2_img=loadImage("zombie2.png");
+  zombie3_img=loadImage("zombie 3.png");
 
-  bullet_Img=loadImage("assets/bullet.png");
+  bullet_Img=loadImage("bullet.png");
 }
 
 function setup() {
